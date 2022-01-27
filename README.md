@@ -1,4 +1,4 @@
-# dairly-algorithm
+# 每日学习
 [![Travis](https://img.shields.io/badge/language-C-green.svg)]()  
 [![Travis](https://img.shields.io/badge/language-C++-green.svg)]()  
 简体中文 | [English](./README.en.md)
