@@ -11,5 +11,7 @@ int main() {
 	return 0;
 }
 ```
+***控制台输出结果：***  
+
 ![image](https://user-images.githubusercontent.com/39286292/151570733-1ce07446-50d3-48b9-9de1-6fd3eb8c9cb6.png)
 
