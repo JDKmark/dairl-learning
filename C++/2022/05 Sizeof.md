@@ -11,3 +11,4 @@ int main() {
 	return 0;
 }
 ```
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
