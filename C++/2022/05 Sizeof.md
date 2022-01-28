@@ -11,5 +11,5 @@ int main() {
 	return 0;
 }
 ```
-![image](https://user-images.githubusercontent.com/39286292/151570384-3b920ecb-f639-4d20-9e54-ac20ec0a1b50.png)
+![image](https://user-images.githubusercontent.com/39286292/151570733-1ce07446-50d3-48b9-9de1-6fd3eb8c9cb6.png)
 
