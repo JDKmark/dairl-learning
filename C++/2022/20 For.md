@@ -4,18 +4,27 @@
 #include <iostream>
 using namespace std;
 int main() {
-	for (int i = 0; i < 5; i++) {
-		cout << i << endl;
-	}
-	for (int i = 1; i <= 50; i++) {
-		if (i % 10 == 7 || i / 10 == 7 || i % 7 == 0) {
-			cout << i << endl;
-		}
-	}
-	return 0;
+    for (int i = 0; i < 5; i++) {
+        cout << i << endl;
+    }
+	//10*10的星星图
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+	//九九乘法表
+    for (int i = 1; i < 10; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << i << " * " << j << " = " << i * j << " ";
+        }
+        cout << endl;
+    }
+    return 0;
 }
 ```
 ***控制台输出结果：***  
 
-![image](https://user-images.githubusercontent.com/39286292/152513110-c0d75733-0d81-4339-bc7a-d9fcda456ce8.png)
+![image](https://user-images.githubusercontent.com/39286292/152513779-a00a5df4-ec97-4ec2-8568-9f942217d231.png)
 
