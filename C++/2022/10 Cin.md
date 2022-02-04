@@ -5,31 +5,31 @@
 #include <string>
 using namespace std;
 int main() {
-	int a;
-	cout << "Please enter an  integer variable:" << endl;
-	cin >> a;
-	cout << a << endl;
+    int a;
+    cout << "Please enter an  integer variable:" << endl;
+    cin >> a;
+    cout << a << endl;
 
-	double b;
-	cout << "Please enter a floating point variable:" << endl;
-	cin >> b;
-	cout << b << endl;
+    double b;
+    cout << "Please enter a floating point variable:" << endl;
+    cin >> b;
+    cout << b << endl;
 
-	char c;
-	cout << "Please enter a character variable:" << endl;
-	cin >> c;
-	cout << c << endl;
+    char c;
+    cout << "Please enter a character variable:" << endl;
+    cin >> c;
+    cout << c << endl;
 
-	string d;
-	cout << "Please enter a  string variable:" << endl;
-	cin >> d;
-	cout << d << endl;
+    string d;
+    cout << "Please enter a  string variable:" << endl;
+    cin >> d;
+    cout << d << endl;
 
-	bool e;
-	cout << "Please enter a  bool variable:" << endl;
-	cin >> e;
-	cout << e << endl;
-	return 0;
+    bool e;
+    cout << "Please enter a  bool variable:" << endl;
+    cin >> e;
+    cout << e << endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

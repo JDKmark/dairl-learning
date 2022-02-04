@@ -5,9 +5,9 @@
 #include <string>
 using namespace std;
 int main() {
-	string str = "abcdefg";
-	cout << str << endl;
-	return 0;
+    string str = "abcdefg";
+    cout << str << endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

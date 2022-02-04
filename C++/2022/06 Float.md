@@ -4,15 +4,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-	float f = 3.14f;
-	double d = 3.14;
+    float f = 3.14f;
+    double d = 3.14;
 
-	cout << "f:" << f << endl;
-	cout << "d:" << d << endl;
+    cout << "f:" << f << endl;
+    cout << "d:" << d << endl;
 
-	cout << "float size:" << sizeof(float) << endl;
-	cout << "double size:" << sizeof(double) <<endl;
-	return 0;
+    cout << "float size:" << sizeof(float) << endl;
+    cout << "double size:" << sizeof(double) <<endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

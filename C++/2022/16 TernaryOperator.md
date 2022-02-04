@@ -4,16 +4,16 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a = 10, b = 5, c = 0;
-	c = a > b ? a : b;
-	cout << "c = " << c << endl;
+    int a = 10, b = 5, c = 0;
+    c = a > b ? a : b;
+    cout << "c = " << c << endl;
 
-	//C++ 
-	(a > b ? a : b) = 100;
-	cout << "a = " << a << endl;
-	cout << "b = " << b << endl;
-	cout << "c = " << c << endl;
-	return 0;
+    //C++ 
+    (a > b ? a : b) = 100;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

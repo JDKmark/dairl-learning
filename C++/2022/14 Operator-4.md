@@ -4,19 +4,19 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a = 10;
-	cout << !a << endl;
-	cout << !!a << endl;
-	int b = 1, c = 1;
-	cout << (b && c) << endl;
-	cout << (!b && c) << endl;
-	cout << (b && !c) << endl;
-	cout << (!b && !c) << endl;
-	cout << (b || c) << endl;
-	cout << (!b || c) << endl;
-	cout << (b || !c) << endl;
-	cout << (!b || !c) << endl;
-	return 0;
+    int a = 10;
+    cout << !a << endl;
+    cout << !!a << endl;
+    int b = 1, c = 1;
+    cout << (b && c) << endl;
+    cout << (!b && c) << endl;
+    cout << (b && !c) << endl;
+    cout << (!b && !c) << endl;
+    cout << (b || c) << endl;
+    cout << (!b || c) << endl;
+    cout << (b || !c) << endl;
+    cout << (!b || !c) << endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

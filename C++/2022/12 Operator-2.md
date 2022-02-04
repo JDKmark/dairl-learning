@@ -4,19 +4,19 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a = 0;
-	cout << " a = " << a << endl;
-	a += 10;//a = a + 10;
-	cout << " a = " << a << endl;
-	a -= 5;//a = a - 5;
-	cout << " a = " << a << endl;
-	a *= 2;//a = a * 2;
-	cout << " a = " << a << endl;
-	a /= 2;//a = a / 2;
-	cout << " a = " << a << endl;
-	a %= 5;//a = a % 5;
-	cout << " a = " << a << endl;
-	return 0;
+    int a = 0;
+    cout << " a = " << a << endl;
+    a += 10;//a = a + 10;
+    cout << " a = " << a << endl;
+    a -= 5;//a = a - 5;
+    cout << " a = " << a << endl;
+    a *= 2;//a = a * 2;
+    cout << " a = " << a << endl;
+    a /= 2;//a = a / 2;
+    cout << " a = " << a << endl;
+    a %= 5;//a = a % 5;
+    cout << " a = " << a << endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

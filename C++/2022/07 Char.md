@@ -4,14 +4,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-	char c = 'a';
-	cout << c << endl;
-	cout << sizeof(char) << endl;
-	cout << (int)c << endl;
-	c = 97;
-	cout << c << endl;
+    char c = 'a';
+    cout << c << endl;
+    cout << sizeof(char) << endl;
+    cout << (int)c << endl;
+    c = 97;
+    cout << c << endl;
 
-	return 0;
+    return 0;
 }
 ```
 ***控制台输出结果：***  

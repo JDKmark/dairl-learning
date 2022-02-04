@@ -4,21 +4,21 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a = 10, b = 5;
-	cout << "a + b = " << a + b << endl;
-	cout << "a - b = " << a - b << endl;
-	cout << "a * b = " << a * b << endl;
-	cout << "a / b = " << a / b << endl;
-	cout << "a % b = " << a % b << endl;
-	a = 2,b = a++;
-	cout << "a = " << a << " b = " << b << endl;
-	a = 2, b = ++a;
-	cout << "a = " << a << " b = " << b << endl;
-	a = 2, b = a--;
-	cout << "a = " << a << " b = " << b << endl;
-	a = 2, b = --a;
-	cout << "a = " << a << " b = " << b << endl;
-	return 0;
+    int a = 10, b = 5;
+    cout << "a + b = " << a + b << endl;
+    cout << "a - b = " << a - b << endl;
+    cout << "a * b = " << a * b << endl;
+    cout << "a / b = " << a / b << endl;
+    cout << "a % b = " << a % b << endl;
+    a = 2,b = a++;
+    cout << "a = " << a << " b = " << b << endl;
+    a = 2, b = ++a;
+    cout << "a = " << a << " b = " << b << endl;
+    a = 2, b = a--;
+    cout << "a = " << a << " b = " << b << endl;
+    a = 2, b = --a;
+    cout << "a = " << a << " b = " << b << endl;
+    return 0;
 }
 ```
 ***控制台输出结果：***  
