@@ -24,7 +24,7 @@ int main() {
 			cout << "Ok,The number is " << guess << endl;
 		}
 	}
-return 0;
+	return 0;
 }
 ```
 ***控制台输出结果：***  
