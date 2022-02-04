@@ -28,5 +28,5 @@ int main() {
 }
 ```
 ***控制台输出结果：***  
-
+1
 ![image](https://user-images.githubusercontent.com/39286292/152486719-cc792930-623e-4ab0-8537-4d61f8f2f849.png)
