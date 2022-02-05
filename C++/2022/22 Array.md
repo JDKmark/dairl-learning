@@ -27,9 +27,17 @@ int main() {
     for (int i = 0; i < 6; i++) {
         cout << nums3[i] << " ";
     }
+    cout << endl;
+    cout << "The size of the entire array:" << sizeof(nums3) << endl;
+    cout << "Each element takes up space:" << sizeof(nums3[0]) << endl;
+    cout << "The number of elements in the array:" << sizeof(nums3) / sizeof(nums3[0]) << endl;
+
+    cout << "Array header address:" << (int)nums3 << endl;
+    cout << "The address of the first element in the array:" << (int)&nums3[0] << endl;
+    cout << "The address of the second element in the array:" << (int)&nums3[1] << endl;
     return 0;
 }
 ```
 ***控制台输出结果：***  
 
-![image](https://user-images.githubusercontent.com/39286292/152634745-d11cf1f0-04b1-44af-9836-80da5f8cbaac.png)
+![image](https://user-images.githubusercontent.com/39286292/152644171-d274b5df-35e5-4bd9-aaed-9bf2febff412.png)
