@@ -29,7 +29,7 @@ int main() {
     }
     cout << endl;
     cout << "The size of the entire array:" << sizeof(nums3) << endl;
-    cout << "Each element takes up space:" << sizeof(nums3[0]) << endl;
+    cout << "The size of the array element:" << sizeof(nums3[0]) << endl;
     cout << "The number of elements in the array:" << sizeof(nums3) / sizeof(nums3[0]) << endl;
 
     cout << "Array header address:" << (int)nums3 << endl;
