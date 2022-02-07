@@ -4,9 +4,17 @@
 ```C++
 #include <iostream>
 using namespace std;
-#include "swap.h"
-//The function structure 
 /*
+	Separate file writing
+	①Create the swap.h header file
+	②Create the swap.cpp source file
+	③Write function declarations in header files(swap.h)
+	④Write the function definition in the source file(swap.cpp)
+*/
+#include "swap.h"
+
+/*
+	The function structure 
 	elementType functionName(parameterList){
 		code;
 		return ;
