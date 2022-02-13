@@ -3,18 +3,49 @@
 ```C++
 #include <iostream>
 using namespace std;
-int main() {
-    int arr[] = { 0,1,2,3,4,5,6,7,8,9 };
-    int* p = arr;
-    cout << "Access the first element: " << arr[0] << endl;
-    cout << "Access the first element: " << *p << endl;
-    
-    //Through the array
-    for (int i = 0; i < 10; i++) {
-        cout << *p << " ";
-        p++;
+//Pass by value
+void swap1(int a, int b) {
+    int temp = a;
+    a = b;
+    b = a;
+}
+//Pass by address
+void swap2(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+void bubbleSort(int* arr, int len) {
+    for (int i = 0; i < len - 1; i++) {
+        for (int j = 0; j < len - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+void printArray(int* arr, int len) {
+    cout << "arr:";
+    for (int i = 0; i < len; i++) {
+        cout << arr[i] << " ";
     }
     cout << endl;
+}
+int main() {
+    int a = 10, b = 5;
+    cout << "a = " << a << " b = " << b << endl;
+    swap1(a, b);
+    cout << "After processing by swap1 function:a = " << a << " b = " << b << endl;
+    swap2(&a, &b);
+    cout << "After processing by swap2 function:a = " << a << " b = " << b << endl;
+    int arr[] = { 7,5,4,1,8,9,3,2,6,0 };
+    int len = sizeof(arr) / sizeof(arr[0]);
+    printArray(arr, len);
+    bubbleSort(arr, len);
+    cout << "After processing by bubbleSort function.";
+    printArray(arr, len);
     return 0;
 }
 ```
