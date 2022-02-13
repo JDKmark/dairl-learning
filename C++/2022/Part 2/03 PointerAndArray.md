@@ -4,18 +4,18 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int arr[] = { 0,1,2,3,4,5,6,7,8,9 };
-	int* p = arr;
-	cout << "Access the first element: " << arr[0] << endl;
-	cout << "Access the first element: " << *p << endl;
-	
-	//Through the array
-	for (int i = 0; i < 10; i++) {
-		cout << *p << " ";
-		p++;
-	}
-	cout << endl;
-	return 0;
+    int arr[] = { 0,1,2,3,4,5,6,7,8,9 };
+    int* p = arr;
+    cout << "Access the first element: " << arr[0] << endl;
+    cout << "Access the first element: " << *p << endl;
+    
+    //Through the array
+    for (int i = 0; i < 10; i++) {
+        cout << *p << " ";
+        p++;
+    }
+    cout << endl;
+    return 0;
 }
 ```
 ### Console output:
