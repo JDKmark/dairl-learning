@@ -51,4 +51,4 @@ int main() {
 ```
 ### Console output:
 
-![image](https://user-images.githubusercontent.com/39286292/153759647-e06d782f-5706-49f9-b510-1fff5d50157e.png)
+![image](https://user-images.githubusercontent.com/39286292/153761100-cbc403f1-104c-4781-9dc6-3644b23d7158.png)
