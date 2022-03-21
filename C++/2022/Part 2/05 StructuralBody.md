@@ -1,8 +1,6 @@
 ### dev：Visual Studio 2022
 🕥2022年3月21日22:55:59
 ```C++
-#include <iostream>
-using namespace std;
 /*
 Structure creation method
 ①struct structName variableName;
@@ -13,7 +11,8 @@ Structure creation method
     ....
 }variableName;
 */
-
+#include <iostream>
+using namespace std;
 struct student {
     string name;
     int age;
