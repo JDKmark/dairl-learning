@@ -1,30 +1,41 @@
 ### dev：Visual Studio 2022
 🕥2022年3月21日22:55:59
 ```C++
-### dev：Visual Studio 2022
-🕥2022年2月13日23:27:38
-```C++
 #include <iostream>
 using namespace std;
-//Pass by value
-void swap1(int a, int b) {
-    int temp = a;
-    a = b;
-    b = a;
-}
-//Pass by address
-void swap2(int* a, int* b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+/*
+Structure creation method
+①struct structName variableName;
+②struct structName variableName = { memberValue1,memberValue2,...};
+③struct structName { 
+    elementType structMember1;
+    elementType structMember2;
+    ....
+}variableName;
+*/
+
+struct student {
+    string name;
+    int age;
+    int score;
+}stu3;
 int main() {
-    int a = 10, b = 5;
-    cout << "a = " << a << " b = " << b << endl;
-    swap1(a, b);
-    cout << "After processing by swap1 function:a = " << a << " b = " << b << endl;
-    swap2(&a, &b);
-    cout << "After processing by swap2 function:a = " << a << " b = " << b << endl;
+    //Method 1
+    struct student stu1;
+    stu1.name = "张三";
+    stu1.age = 18;
+    stu1.score = 100;
+    cout << "姓名： " << stu1.name << " 年龄： " << stu1.age << " 分数： " << stu1.score << endl;
+
+    //Method 2
+    struct student stu2 = { "李四",19,60 };
+    cout << "姓名： " << stu2.name << " 年龄： " << stu2.age << " 分数： " << stu2.score << endl;
+
+    //Method 3
+    stu3.name = "王五";
+    stu3.age = 18;
+    stu3.score = 80;
+    cout << "姓名： " << stu3.name << " 年龄： " << stu3.age << " 分数： " << stu3.score << endl;
     return 0;
 }
 ```
