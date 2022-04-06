@@ -69,3 +69,21 @@ int main() {
 ```
 ### 控制台输出
 ![image](https://user-images.githubusercontent.com/39286292/161791432-6329d8ee-1fa2-4e76-8181-9c57772668c3.png)
+
+### 堆区示例:
+```C++
+#include <iostream>
+using namespace std;
+int* func() {
+	int* a = new int(10);
+	return a;
+}
+int main() {
+	int* p = func();
+	cout << p << endl;
+	cout << *p << endl;
+	return 0;
+}
+```
+### 控制台输出
+![image](https://user-images.githubusercontent.com/39286292/162013422-9f9bbb57-8c75-467f-b764-e43bc9d2aab3.png)
