@@ -19,4 +19,4 @@ int main() {
 }
 ```
 ### Console output:
-![image](https://user-images.githubusercontent.com/39286292/160243524-ab51a062-2b6c-4351-9891-6a764944dbaf.png
+![image](https://user-images.githubusercontent.com/39286292/160243524-ab51a062-2b6c-4351-9891-6a764944dbaf.png)
