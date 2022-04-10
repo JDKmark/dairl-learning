@@ -5,34 +5,34 @@
 using namespace std;
 //Value by pass
 void swap1(int a, int b) {
-	int temp = a;
-	a = b;
-	b = temp;
+    int temp = a;
+    a = b;
+    b = temp;
 }
 //Address by pass
 void swap2(int* a, int* b) {
-	int temp = *a;
-	*a = *b;
-	*b = temp;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
 //Reference by pass
 void swap3(int& a, int& b) {
-	int temp = a;
-	a = b;
-	b = temp;
+    int temp = a;
+    a = b;
+    b = temp;
 }
 int main() {
-	int a = 10;
-	int b = 20;
+    int a = 10;
+    int b = 20;
 
-	swap1(a, b);
-	cout << "a:" << a << " b:" << b << endl;
+    swap1(a, b);
+    cout << "a:" << a << " b:" << b << endl;
 
-	swap2(&a, &b);
-	cout << "a:" << a << " b:" << b << endl;
+    swap2(&a, &b);
+    cout << "a:" << a << " b:" << b << endl;
 
-	swap3(a, b);
-	cout << "a:" << a << " b:" << b << endl;
+    swap3(a, b);
+    cout << "a:" << a << " b:" << b << endl;
 }
 //引用与地址传递效果一致
 ```
